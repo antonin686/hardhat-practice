@@ -5,6 +5,9 @@
   "repository": "https://github.com/antonin686/hardhat-practice.git",
   "author": "Md Antonin Islam <antonin686.dev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "counter": "npx hardhat compile && npx hardhat run scripts/dCounter.ts"
+  },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
     "@ethersproject/providers": "^5.4.7",
